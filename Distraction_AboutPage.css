@@ -1,0 +1,441 @@
+body{
+    background-image: url("5053309.jpg");
+    width: 1350px;
+    height: 1500px;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+div.navbar{
+    margin: 0px -7px;
+    background-color: #161616;
+    width: 1463px;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 3px;
+    z-index: 3;
+    box-shadow: 0 0 7px rgb(0 0 0);
+}
+
+div.navbar ul li{
+    /* font-family: Dancing Script; */
+    text-decoration: none;
+    /* box-shadow: 0 0 58px rgb( 0 0 0 ); */
+    list-style: none;
+    display: inline;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px 26px;
+}    
+
+div.navbar ul li a{
+    color: azure;
+    text-decoration: none;
+}
+
+div.navbar ul li :hover{
+    /* background-color: azure; */
+    /* box-shadow: 0 0 350px rgba(255, 255, 255); */
+    /* border-radius: 14px; */
+    color: #00FF33;
+    /* text-decoration: underline; */
+    /* padding: 5px; */
+}
+
+.container1{
+    background-image: url("15410.gif");
+    width: 1406px;
+    height: 500px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.container2{
+    /* border: 4px solid black; */
+    background-color: transparent;
+    box-shadow: 0px 0px 350px rgb(0 0 0);
+    width: 1042px;
+    height: 714px;
+    padding: 3px;
+    position: absolute;
+    top: 141px;
+    left: 159px;
+    z-index: 3;
+}
+
+#heading{
+    font-family: Stick No Bills;
+    color: green;
+    position: relative;
+    top: -93px;
+    left: 26px;
+    font-size: 8em;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#subheading{
+    font-family: Stick No Bills;
+    position: relative;
+    color: green;
+    top: -140px;
+    left: 58px;
+    font-size: 3.5em;
+    font-style: italic;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#ImageOfAnsh {
+    position: relative;
+    box-shadow: 0px 0px 30px rgb(0 0 0);
+    border-radius: 93px;
+    z-index: 2;
+    top: 554px;
+    left: 23px;
+    width: 489px;
+    height: 516px;
+}
+
+#ImageOfAtul{
+    position: relative;
+    box-shadow: 0px 0px 30px rgb(0 0 0);
+    border-radius: 93px;
+    z-index: 2;
+    top: 247px;
+    left: 819px;
+    width: 489px;
+    height: 516px;
+}
+
+#ImageOfAbhigyaan{
+    position: relative;
+    box-shadow: 0px 0px 30px rgb(0 0 0);
+    border-radius: 93px;
+    z-index: 2;
+    top: -98px;
+    left: 23px;
+    width: 489px;
+    height: 516px;
+}
+
+#ImageOfAbhay{
+    position: relative;
+    box-shadow: 0px 0px 30px rgb(0 0 0);
+    border-radius: 93px;
+    z-index: 2;
+    top: -468px;
+    left: 819px;
+    width: 489px;
+    height: 516px;
+}
+
+#ImageOfAnkit{
+    position: relative;
+    box-shadow: 0px 0px 30px rgb(0 0 0);
+    border-radius: 93px;
+    z-index: 2;
+    top: -777px;
+    left: 23px;
+    width: 489px;
+    height: 516px;
+}
+
+div.divForAnsh{
+    position: relative;
+    left: 529px;
+    top: -5px;
+    width: 782px;
+    height: 490px;
+    z-index: 2;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px rgb(0 0 0);
+}
+
+div.divForAtul{
+    position: relative;
+    left: 16px;
+    top: -341px;
+    width: 782px;
+    height: 490px;
+    z-index: 2;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px rgb(0 0 0);
+}
+
+div.divForAbhigyaan{
+    position: relative;
+    left: 539px;
+    top: -678px;
+    width: 782px;
+    height: 490px;
+    z-index: 2;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px rgb(0 0 0);
+}
+
+div.divForAbhay{
+    position: relative;
+    left: 16px;
+    top: -1009px;
+    width: 782px;
+    height: 490px;
+    z-index: 2;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px rgb(0 0 0);
+}
+
+div.divForAnkit{
+    position: relative;
+    left: 539px;
+    top: -1329px;
+    width: 782px;
+    height: 490px;
+    z-index: 2;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px rgb(0 0 0);
+}
+
+.divForAnsh h3#forAnsh{
+    position: relative;
+    top: -13px;
+    left: -4px;
+    padding: 10px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #EE3B3B;
+}
+
+.divForAtul h3#forAtul{
+    position: relative;
+    top: 13px;
+    left: -1px;
+    padding: 10px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #EE3B3B;
+}
+
+.divForAbhigyaan h3#forAbhigyaan{
+    position: relative;
+    top: 13px;
+    left: -2px;
+    padding: 10px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #EE3B3B;
+}
+
+.divForAbhay h3#forAbhay{
+    position: relative;
+    top: -13px;
+    left: -2px;
+    padding: 10px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #EE3B3B;
+}
+
+.divForAnkit h3#forAnkit{
+    position: relative;
+    top: -13px;
+    left: -3px;
+    padding: 10px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #EE3B3B;
+}
+
+p#materialAboutPerson{
+    padding: 10px;
+    font-size: x-large;
+    font-family: cursive;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.login_form_container{
+    background: #172774;
+    opacity: 118%;
+    position: absolute;
+    display: flex;
+    box-shadow: 0 0 35px rgb(0 0 0);
+    align-items: center;
+    justify-content: center;
+    top: 4010px;
+    left: 0px;
+    width: 1411px;
+    height: 564px;
+    overflow: hidden;
+    /* z-index: 3; */
+    z-index: 1;
+}
+
+div.login_form_container h1{
+    position: relative;
+    background-color: #161616;
+    display: inline;
+    text-align: center;
+    margin: 0px -288px;
+    width: 1364px;
+    top: -249px;
+    left: 286px;
+    color: #EE3B3B;
+    font-size: 3em;
+    font-family: Akronim;
+    font-weight: bolder;
+    padding: 1px 287px;
+    letter-spacing: 33px;
+    /* z-index: 3; */
+    z-index: 1;
+}
+
+div > h3{
+    position: relative;
+    display: block;
+    top: -123px;
+    left: -409px;
+    margin: 22px -62px;
+    text-align: center;
+    font-size: 2em;
+    color: #EE3B3B;
+    font-family: Explora;
+    font-weight: bold;
+    letter-spacing: 10px;
+    /* z-index: 3; */
+    z-index: 1;
+}
+
+span{
+    color: black;
+    font-style: italic;
+    text-decoration: wavy;
+    /* z-index: 3 */
+    z-index: 1;
+}
+
+form.login_form{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 771px;
+    height: 15px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color: blanchedalmond;
+    /* z-index: 3; */
+    z-index: 1;
+}
+
+div.suggestion_box
+{
+    position: relative;
+    /* border: 2px solid green; */
+    padding: 3px;
+    margin: 5px;
+    width: 736px;
+    left: 64px;
+    top: 52px;
+}
+
+div.suggestion_box input{
+    background: none;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    font-size: x-large;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 674px;
+    height: 29px;
+    margin-right: 6px;
+}
+
+div.suggestion_box input::placeholder{
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    letter-spacing: 1.5px;
+    font-style: italic;
+}
+
+div.suggestion_box button{
+    box-sizing: border-box;
+    width: 174px;
+    height: 45px;
+    border-radius: 50px;
+    background: #2ecc71;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    border: none;
+    color: black;
+    position: absolute;
+    cursor: pointer;
+    top: -10px;
+}
+
+div.suggestion_box button:hover{
+    background-color: black;
+    color: #2ecc71;
+}
+
+#end{
+    background: #161616;
+    position: relative;
+    top: -605px;
+    height: 797px;
+    padding: 10px;
+    margin: 5px -51px;
+    box-shadow: 0 0 7px rgb(0 0 0);
+    /* z-index: 4; */
+    z-index: 2;
+}
+
+#endH{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    color: white;
+    z-index: 2;
+}
+
+.img1{
+    position: relative;
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    /* filter: grayscale(1); */
+    width: 10%;    
+    float: left;
+    padding: 5px;
+    left: 280px;
+    top: 40px;
+    /* z-index: 4; */
+    z-index: 2;
+}
+
+
+.img1:hover{
+    transform: scale(130%);
+    /* box-shadow: 0 0 50px rgb(255, 255, 255); */
+    /* z-index: 3; */
+    z-index: 2;
+}

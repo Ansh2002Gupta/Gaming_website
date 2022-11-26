@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+#background
+{
+    position: absolute;
+    z-index: 1;
+}
+
+#signUp_form_wallpaper{
+    position: relative;
+    opacity: 0%;
+    top: 0px;
+    left: 635px;
+    z-index: 3;
+}
+
+.container_for_display_label{
+    position: relative;
+    display: block;
+    outline: none;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 27px;
+    padding-bottom: 3px;
+    width: 579px;
+    height: 339px;
+    top: -507px;
+    left: 44px;
+    z-index: 2;
+    /* box-shadow: 7px 1px 56px whitesmoke; */
+    /* box-shadow: -10px 16px 0px #FF0075; */
+    /* box-shadow: -10px 16px 0px whitesmoke; */
+    border-radius: 20px;
+    background: transparent;
+}
+
+#welcome_to_distraction{
+    /* font-family: 'Rye', cursive; */
+   font-family:Arial, Helvetica, sans-serif;
+    font-size: 5.8em;
+    font-weight: bolder;
+    font-style: normal;
+    /* outline-color: blue; */
+    text-align: center;
+    /* text-shadow: 0px 15px black; */
+    /* -webkit-text-stroke: 1px #49FF00; */
+    color: #8E05C2;
+    /* -webkit-box-reflect: below 10px linear-gradient(transparent, #8E05C2); */
+}
+
+#welcome_to_distraction span{
+    animation-name: animate; 
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+    /* animation: animate 5s linear infinte; */
+}
+
+h1#welcome_to_distraction span:nth-child(1){
+    animation-delay: 0.4s;
+}
+
+h1#welcome_to_distraction span:nth-child(2){
+    animation-delay: 0.7s;
+}
+
+h1#welcome_to_distraction span:nth-child(3){
+    animation-delay: 1.1s;
+}
+
+@keyframes animate
+{
+    0%,18%,25%,43.1%,50%,73%,81%,93%
+    {
+        color: #8E05C2;
+        text-shadow: none;
+    }
+
+    18.1%,25.1%,43%,50.1%,73.1%,81.1%,93.1%,100%
+    {
+        color: #ffff;
+        text-shadow: 0 0 10px #FF1493, 
+        0 0 20px #FF1493,
+        0 0 40px #FF1493,
+        0 0 80px #FF1493,
+        0 0 160px #FF1493,
+        0 0 400px #FF1493;
+    }
+}
+
+.complete_container_for_data_container{
+    position: relative;
+    top: -1015px;
+    z-index: 4;
+}
+
+.complete_container_for_signUp{
+    position: relative;
+    width: 482px;
+    height: 453px;
+    top: -904px;
+    left: 788px;
+    background-color: black;
+    box-shadow: 0 0 14px rgb(0 0 0);
+    opacity: 55%;
+    box-shadow: 7px 1px 56px whitesmoke;
+    /* box-shadow: -10px 16px 0px #ff0075; */
+    border-radius: 20px;
+    z-index: 3;
+}
+
+#createAccount_text{
+    position: relative;
+    top: -1321px;
+    left: 952px;
+    display: inline;
+    /* border: 2px solid white; */
+    background: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    color: #F7F7F7;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 4px;
+    margin: 5px;
+    z-index: 4;
+}
+
+div#fName
+{
+    display: inline;
+    position: relative;
+    padding: 0px 2px;
+    top: -523px;
+    left: 875px;
+    z-index: 4;
+}
+
+div#lName
+{
+    display: inline; 
+    position: relative;
+    padding: 2px;
+    margin: 2px;
+    top: -470px;
+    /* left: 685px; */
+    left: 560px;
+    z-index: 4;
+}
+
+#inFName{
+    width: 283px;
+    height: 31px;
+    outline: none;
+    font-family: "Times New Roman", Times, serif;
+    color: greenyellow;
+    font-style: italic;
+    font-weight: normal;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: medium;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+#inLName{
+    width: 281px;
+    height: 30px;
+    outline: none;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: normal;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: medium;
+}
+
+#dob_container{
+    position: relative;
+    top: -414px;
+    left: 248px;
+    /* display: inline; */
+    display: inline;
+    z-index: 4;
+}
+
+.dob{
+    width: 54px;
+    height: 30px;
+    outline: none;
+    margin: 0px 23px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: normal;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: medium;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+#gamerId_container{
+    position: relative;
+    display: block;
+    top: -212px;
+    left: 880px;
+    z-index: 4;
+}
+
+#gamerId_container input{
+    width: 279px;
+    height: 30px;
+    outline: none;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: normal;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: medium;    
+}
+
+#password_container{
+    position: relative;
+    display: inline;
+    top: -152px;
+    left: 882px;
+    z-index: 4;
+}
+
+#confirmPassword_container{
+    position: relative;
+    display: inline;
+    top: -295px;
+    left: 567px;
+    z-index: 4;
+}
+
+#password_container input{
+    width: 280px;
+    height: 30px;
+    outline: none;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: normal;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: medium;    
+}
+
+#confirmPassword_container input{
+    width: 287px;
+    height: 30px;
+    outline: none;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: normal;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: medium;    
+}
+
+button{
+    position: relative;
+    margin: 1px;
+    top: -69px;
+    left: 820px;
+    width: 417px;
+    height: 37px;
+    padding: 3px 4px;
+    border: 3px solid black;
+    /* box-shadow: rgb(112 39 160) 14px 14px 14px; */
+    border-radius: 25px;
+    background-color: black;
+    font-family: 'Rye', cursive;
+    font-size: larger;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(112, 39, 160);
+}
+
+button :hover{
+    position: relative;
+    width: 416px;
+    height: 27px;
+    top: -7px;
+    left: -8.75px;
+    margin: 1px;
+    padding: 3px 4px;
+    border: 3px solid rgb(112, 39, 160);
+    /* box-shadow: rgb(112 39 160) 14px 14px 14px; */
+    border-radius: 25px;
+    /* box-shadow: 7px 1px 56px rgb(112 39 160); */
+    box-shadow: 0 0 10px rgb(112 39 160), 
+    0 0 20px rgb(112 39 160),
+    0 0 40px rgb(112 39 160),
+    0 0 80px rgb(112 39 160),
+    0 0 160px rgb(112 39 160),
+    0 0 400px rgb(112 39 160);
+    /* background-color: rgb(112, 39, 160); */
+    background-color: #F7F7F7;
+    font-family: 'Rye', cursive;
+    font-size: larger;
+    font-style: normal;
+    font-weight: bold;
+    color: black; 
+}
+
+/* #signUp_button h4 :hover{
+    color: lime;
+} */
