@@ -12,9 +12,9 @@ This repository contains a gaming website named **Distractions** created by me. 
   
 # Achitectural Design
 *Webpages* <br>
-Webpages have been created with the help of HTML and their designing have been done using CSS.
+Webpages have been created with the help of HTML and their designing have been done using CSS. <br>
 <br> *Communicaton with the virtual private server* <br>
-The instructions for the browser to communicate with the VPS are provided through PHP. The results of these communications are then displayed on the webpage.
+The instructions for the browser to communicate with the VPS are provided through PHP. The results of these communications are then displayed on the webpage. <br>
 <br> *User Authenthication for SignIn/SignUp* <br>
 I used a free software tool written in PHP, intended to handle the administration of MySQL over the Web named *phpMyadmin*. This database not only contains the details of the user by also contains the rating as given by the user and their suggestions if any.
 
